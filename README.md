@@ -7,5 +7,5 @@ A little .sh file to create your WP Project with WP-CLI
 3. Start ./wp-install.sh in your terminal interface and follow the guide 
 
 ## Requirements 
-* French language understanding (for the moment...)
+* French language understanding (for the moment not translated...)
 * WP-CLI installed on your environment
