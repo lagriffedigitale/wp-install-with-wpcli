@@ -1,8 +1,6 @@
 tinymce-advanced
 admin-menu-editor
 wordpress-seo
-yoast-acf-analysis
-autoptimize
-far-future-expiration
+acf-content-analysis-for-yoast-seo/
 cookie-law-info
 wp-sitemap-page

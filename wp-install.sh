@@ -1,4 +1,5 @@
-website_path="./web"
+website_folder="web"
+website_path="./"$website_folder
 
 echo " "
 echo "###"
@@ -53,7 +54,7 @@ echo " "
 plugins_list_configuration='./plugins_list.txt'
 
 #CREATE WP FOLDER
-mkdir -p 'web'
+mkdir -p $website_folder
 
 # DOWNLOAD WP CORE IN FRENCH
 echo " "
@@ -107,7 +108,7 @@ echo "Nettoyage en cours... Suppression des plugins et posts inutiles"
 echo " "
 
 #UPDATE OPTIONS
-cd web/ && wp option update blogname "$website_title" && wp option update blogdescription "$website_desc" && wp plugin delete hello && wp plugin delete akismet && wp post delete 1 && wp post delete 2
+cd $website_folder/ && wp option update blogname "$website_title" && wp option update blogdescription "$website_desc" && wp plugin delete hello && wp plugin delete akismet && wp post delete 1 && wp post delete 2
 
 # OPEN WEBSITE
 open "http://$local_domain"
