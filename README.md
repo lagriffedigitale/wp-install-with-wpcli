@@ -8,4 +8,4 @@ A little .sh file to create your WP Project with [WP CLI](https://wp-cli.org/fr/
 
 ## Requirements
 * French language understanding (for the moment not translated...)
-* WP-CLI installed on your environment. [Check here how to install WP CLI](https://wp-cli.org/fr/#installation)
+* WP-CLI installed on your environment. [Check here to know how to install WP CLI](https://wp-cli.org/fr/#installation)
