@@ -1,0 +1,8 @@
+tinymce-advanced
+admin-menu-editor
+wordpress-seo
+yoast-acf-analysis
+autoptimize
+far-future-expiration
+cookie-law-info
+wp-sitemap-page
